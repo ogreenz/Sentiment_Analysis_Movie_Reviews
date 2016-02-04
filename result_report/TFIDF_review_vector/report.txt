@@ -1,0 +1,649 @@
+TFIDF #features = 5000
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='auto') -> 0.5668
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='auto') -> 0.5688
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='ball_tree') -> 0.5668
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='ball_tree') -> 0.5688
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='kd_tree') -> 0.5668
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='kd_tree') -> 0.5688
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='brute') -> 0.5668
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='brute') -> 0.5688
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='auto') -> 0.5752
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='auto') -> 0.5692
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='ball_tree') -> 0.5752
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='ball_tree') -> 0.5692
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='kd_tree') -> 0.5752
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='kd_tree') -> 0.5692
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='brute') -> 0.5760
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='brute') -> 0.5700
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='auto') -> 0.5780
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='auto') -> 0.5812
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='ball_tree') -> 0.5780
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='ball_tree') -> 0.5812
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='kd_tree') -> 0.5780
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='kd_tree') -> 0.5812
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='brute') -> 0.5776
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='brute') -> 0.5808
+
+TFIDF #features = 300
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='auto') -> 0.6960
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='auto') -> 0.6972
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='ball_tree') -> 0.6960
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='ball_tree') -> 0.6972
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='kd_tree') -> 0.6960
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='kd_tree') -> 0.6972
+KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='brute') -> 0.6960
+KNeighborsClassifier(n_neighbors=5, weights='distance', algorithm='brute') -> 0.6972
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='auto') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='auto') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='ball_tree') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='ball_tree') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='kd_tree') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='kd_tree') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='uniform', algorithm='brute') -> 0.7136
+KNeighborsClassifier(n_neighbors=8, weights='distance', algorithm='brute') -> 0.7136
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='auto') -> 0.7304
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='auto') -> 0.7316
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='ball_tree') -> 0.7304
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='ball_tree') -> 0.7316
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='kd_tree') -> 0.7304
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='kd_tree') -> 0.7316
+KNeighborsClassifier(n_neighbors=15, weights='uniform', algorithm='brute') -> 0.7304
+KNeighborsClassifier(n_neighbors=15, weights='distance', algorithm='brute') -> 0.7316
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7460
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7452
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7384
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7520
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7616
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7472
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.7936
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7960
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8108
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7944
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8040
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7920
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8044
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8036
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8092
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7996
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8040
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8128
+MultinomialNB(alpha=1, fit_prior=True) -> 0.7988
+MultinomialNB(alpha=1, fit_prior=False) -> 0.7992
+MultinomialNB(alpha=10, fit_prior=True) -> 0.7996
+MultinomialNB(alpha=10, fit_prior=False) -> 0.7996
+MultinomialNB(alpha=100, fit_prior=True) -> 0.7932
+MultinomialNB(alpha=100, fit_prior=False) -> 0.7948
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.7904
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.7932
+GaussianNB() -> 0.7860
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7304
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7384
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7196
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7344
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7416
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7192
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.7928
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.7932
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.7968
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8028
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.7948
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8060
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8120
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8160
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8144
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8104
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8060
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8112
+
+##### TFIDF #features = 300
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7256
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7376
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7044
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7352
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7460
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7148
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8072
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8036
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.7928
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8004
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8032
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.7924
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8072
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8088
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8152
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8068
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8072
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8140
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7480
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7512
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7280
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7560
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7348
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7440
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.7976
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7932
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.7980
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7964
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7940
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8028
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8000
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8004
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8152
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7996
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7980
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8096
+MultinomialNB(alpha=1, fit_prior=True) -> 0.7988
+MultinomialNB(alpha=1, fit_prior=False) -> 0.7992
+MultinomialNB(alpha=10, fit_prior=True) -> 0.7996
+MultinomialNB(alpha=10, fit_prior=False) -> 0.7996
+MultinomialNB(alpha=100, fit_prior=True) -> 0.7932
+MultinomialNB(alpha=100, fit_prior=False) -> 0.7948
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.7904
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.7932
+GaussianNB() -> 0.7860
+##### TFIDF #features = 450
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7476
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7464
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7320
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7360
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7540
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7380
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8208
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8212
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8252
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8280
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8140
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8120
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8264
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8308
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8328
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8280
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8276
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8344
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7680
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7700
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7320
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7504
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7656
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7588
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8036
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8188
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8140
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8108
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8128
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8240
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8188
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8192
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8288
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8188
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8140
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8300
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8240
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8228
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8236
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8244
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8204
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8192
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8104
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8088
+GaussianNB() -> 0.8044
+##### TFIDF #features = 600
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7548
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7508
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7224
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7652
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7572
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7272
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8276
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8236
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8192
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8328
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8292
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8216
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8356
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8340
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8388
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8356
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8384
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8388
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7756
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7680
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7372
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7684
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7780
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7484
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8264
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8088
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8128
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8236
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8252
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8268
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8264
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8292
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8376
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8228
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8292
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8336
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8188
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8184
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8192
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8196
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8228
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8232
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8144
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8164
+GaussianNB() -> 0.7936
+##### TFIDF #features = 750
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7584
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7608
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7220
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7560
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7756
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7376
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8332
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8424
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8304
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8348
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8480
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8260
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8456
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8444
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8456
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8472
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8452
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8480
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7760
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7692
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7464
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7844
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7820
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7496
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8276
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8272
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8344
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8292
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8272
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8300
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8280
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8340
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8488
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8316
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8304
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8472
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8284
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8272
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8312
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8300
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8320
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8320
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8180
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8152
+GaussianNB() -> 0.8076
+##### TFIDF #features = 900
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7624
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7636
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7488
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7736
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7628
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7328
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8416
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8384
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8332
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8456
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8476
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8412
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8500
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8492
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8448
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8520
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8508
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8524
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7948
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7740
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7480
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7852
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7708
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7672
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8304
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8356
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8384
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8276
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8288
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8392
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8348
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8380
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8500
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8408
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8404
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8480
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8348
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8348
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8336
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8344
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8320
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8332
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8168
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8168
+GaussianNB() -> 0.8184
+##### TFIDF #features = 1050
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7648
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7684
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7396
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7756
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7828
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7400
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8420
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8404
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8396
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8504
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8480
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8472
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8572
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8532
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8500
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8596
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8604
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8528
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7836
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7740
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7508
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7880
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7840
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7632
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8340
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8364
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8384
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8420
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8400
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8484
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8436
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8420
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8536
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8448
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8408
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8584
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8364
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8364
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8368
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8364
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8320
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8320
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8212
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8216
+GaussianNB() -> 0.8168
+##### TFIDF #features = 1200
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7724
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7864
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7396
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7880
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7776
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7344
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8512
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8540
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8396
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8516
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8544
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8448
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8628
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8580
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8564
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8596
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8636
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8600
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7880
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7704
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7436
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7728
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7788
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7640
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8416
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8380
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8456
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8372
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8448
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8508
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8472
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8464
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8580
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8488
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8500
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8580
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8360
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8364
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8404
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8408
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8396
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8412
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8268
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8264
+GaussianNB() -> 0.8188
+##### TFIDF #features = 1350
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7768
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7800
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7448
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7748
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7856
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7428
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8548
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8588
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8388
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8492
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8528
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8372
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8648
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8696
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8608
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8672
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8628
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8588
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7876
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7768
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7552
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7700
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7792
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7548
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8352
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8452
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8412
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8444
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8432
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8524
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8528
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8464
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8588
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8476
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8528
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8636
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8376
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8380
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8388
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8396
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8404
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8424
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8276
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8280
+GaussianNB() -> 0.8172
+##### TFIDF #features = 1500
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7844
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7812
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7408
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7884
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7744
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7472
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8532
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8568
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8552
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8620
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8544
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8496
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8676
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8604
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8644
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8656
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8700
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8672
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7792
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7804
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7612
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7800
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7896
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7556
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8408
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8464
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8456
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8456
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8420
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8540
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8524
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8476
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8632
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8516
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8524
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8616
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8428
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8428
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8436
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8448
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8448
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8436
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8312
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8300
+GaussianNB() -> 0.8160
+##### TFIDF #features = 1650
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7772
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7776
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7448
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7752
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7764
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7480
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8524
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8572
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8412
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8580
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8572
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8436
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8688
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8648
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8608
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8696
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8668
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8616
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7668
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7900
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7596
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7944
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7864
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7640
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8404
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8388
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8476
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8400
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8424
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8516
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8504
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8556
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8604
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8548
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8516
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8560
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8380
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8384
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8428
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8424
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8420
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8424
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8308
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8248
+GaussianNB() -> 0.8144
+##### TFIDF #features = 1800
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7800
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7792
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7300
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7976
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7916
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7628
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8564
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8592
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8448
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8600
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8580
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8460
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8672
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8652
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8632
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8664
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8692
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8644
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7700
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7984
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7512
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7900
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7904
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7640
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8416
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8408
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8472
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8380
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8464
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8532
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8500
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8556
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8636
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8520
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8492
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8624
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8380
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8384
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8460
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8460
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8444
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8440
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8292
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8236
+GaussianNB() -> 0.8144
+##### TFIDF #features = 1950
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=auto) -> 0.7836
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=sqrt) -> 0.7732
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=gini, max_features=log2) -> 0.7392
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=auto) -> 0.7824
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=sqrt) -> 0.7804
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=10, criterion=entropy, max_features=log2) -> 0.7440
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=auto) -> 0.8588
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=sqrt) -> 0.8544
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=gini, max_features=log2) -> 0.8496
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=auto) -> 0.8576
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=sqrt) -> 0.8560
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=100, criterion=entropy, max_features=log2) -> 0.8504
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=auto) -> 0.8656
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=sqrt) -> 0.8644
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=gini, max_features=log2) -> 0.8628
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=auto) -> 0.8652
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=sqrt) -> 0.8672
+ExtraTreesClassifier(n_jobs=8, random_state=np.random.RandomState(), n_estimators=500, criterion=entropy, max_features=log2) -> 0.8736
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=auto) -> 0.7764
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.7752
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=gini, max_features=log2) -> 0.7504
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=auto) -> 0.7904
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.7952
+RandomForestClassifier(n_estimators=10, n_jobs=8, criterion=entropy, max_features=log2) -> 0.7608
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=auto) -> 0.8436
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8468
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=gini, max_features=log2) -> 0.8476
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8464
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8436
+RandomForestClassifier(n_estimators=100, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8548
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=auto) -> 0.8520
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=sqrt) -> 0.8476
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=gini, max_features=log2) -> 0.8584
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=auto) -> 0.8528
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=sqrt) -> 0.8516
+RandomForestClassifier(n_estimators=500, n_jobs=8, criterion=entropy, max_features=log2) -> 0.8640
+MultinomialNB(alpha=1, fit_prior=True) -> 0.8400
+MultinomialNB(alpha=1, fit_prior=False) -> 0.8400
+MultinomialNB(alpha=10, fit_prior=True) -> 0.8468
+MultinomialNB(alpha=10, fit_prior=False) -> 0.8476
+MultinomialNB(alpha=100, fit_prior=True) -> 0.8460
+MultinomialNB(alpha=100, fit_prior=False) -> 0.8456
+MultinomialNB(alpha=1000, fit_prior=True) -> 0.8272
+MultinomialNB(alpha=1000, fit_prior=False) -> 0.8236
+GaussianNB() -> 0.8100
