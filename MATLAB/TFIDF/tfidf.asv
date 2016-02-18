@@ -1,0 +1,12 @@
+%creates the reviews file list
+reviews_dir = 'all';
+filelist = dir(reviews_dir);
+for i=1:size(filelist,1)
+    filelist(i).name = fullfile(pwd, reviews_dir, filelist(i).name);
+end
+%split the filelist into train reviews and test reviews
+
+words_map = containers.Map();
+words_count = 1;
+[words_map, words_count] = create_words_map(words_map,words_count,neg_dir);
+[words_map, ~] = create_words_map(words_map,words_count,pos_dir);
